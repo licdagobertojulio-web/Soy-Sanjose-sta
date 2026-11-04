@@ -1,0 +1,22 @@
+SAN JOSÉ SOMOS TODOS · Proyecto Android
+Guía del Manual de Convivencia de la IE San José de Sincelejo, empaquetada como app.
+Funciona sin internet. El avance de las misiones se guarda en el teléfono.
+
+OPCIÓN A · Con Android Studio (computador)
+1. Instale Android Studio (gratis) desde developer.android.com/studio.
+2. Descomprima esta carpeta y ábrala con File > Open.
+3. Espere a que termine la sincronización (la primera vez descarga varios componentes).
+4. Menú Build > Build App Bundle(s) / APK(s) > Build APK(s).
+5. El archivo queda en app/build/outputs/apk/debug/app-debug.apk.
+
+OPCIÓN B · Sin instalar nada, con GitHub (gratis)
+1. Cree una cuenta en github.com y un repositorio nuevo.
+2. Suba todo el contenido de esta carpeta (incluida la carpeta .github).
+3. Entre a la pestaña Actions del repositorio. La compilación arranca sola y tarda unos 5 minutos.
+4. Al terminar, abra la ejecución y descargue "SanJoseSomosTodos-apk" en la sección Artifacts.
+
+INSTALAR EN EL CELULAR
+Copie app-debug.apk al teléfono, ábralo y acepte "Instalar apps de origen desconocido" cuando Android lo pida.
+
+PARA ACTUALIZAR EL CONTENIDO
+Reemplace app/src/main/assets/index.html y suba versionCode en app/build.gradle (1, 2, 3...).
